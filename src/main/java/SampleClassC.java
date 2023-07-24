@@ -29,8 +29,11 @@ public class SampleClassC implements Comparable<SampleClassC>{
     public int compareTo(SampleClassC other) {
         if(this.val < other.val){
             return val *= -1;
+        }else if(this.val > other.val){
+            return val *= -1;
+        }else{
+            return 0;
         }
-        return val;
     }
 
 }
