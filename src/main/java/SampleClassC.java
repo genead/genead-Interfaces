@@ -32,7 +32,7 @@ public class SampleClassC implements Comparable<SampleClassC>{
         }else if(this.val > other.val){
             return val;
         }else{
-            return 0;
+            return val = 0;
         }
     }
 
